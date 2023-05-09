@@ -15,7 +15,7 @@ Here's where I'll be keeping track of my progress throughout the 100 days of cod
 
 | Day | Project Title | Description | Demo |
 | --- | ------------ | ----------- | ---- |
-| 1 | Loading spinner | Make a beautiful loading spinner with hue-rotate | [Demo Link](https://djaglodoris.github.io/100-days-of-code/day-1/) |
+| 1 | Loading spinner | Make a beautiful loading spinner with hue-rotate | [Demo Link](https://djaglodoris.github.io/100-days-of-code/challenge/day-1/) |
 
 
 
