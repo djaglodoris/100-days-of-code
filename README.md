@@ -6,8 +6,9 @@ Welcome to my 100 Days of CSS and React/Next.js challenge! I'm excited to be emb
 
 I'm a passionate web developer who loves to learn and experiment with new technologies. You can connect with me on the following platforms:
 
-- LinkedIn: [Doris DJAGLO](https://www.linkedin.com/in/dorisdjaglo/)
 - Twitter: [@DorisDjaglo](https://twitter.com/DorisDjaglo)
+- LinkedIn: [Doris DJAGLO](https://www.linkedin.com/in/dorisdjaglo/)
+
 
 ## Challenge Progress
 
