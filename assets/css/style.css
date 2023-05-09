@@ -1,1 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Poppins:wght@300;400;600;700;800&display=swap');
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body
+{
+    padding:20px;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0;
+    border-bottom: 1px solid #E7E7E7;   
+}
+header h1
+{
+    font-weight:800;
+    font-size:36px;
+}
+header .social
+{
+    background-color:#B885CD;
+    padding:5px 15px;
+    border-radius:100px;
+    display:flex;
+    align-items:center;
+    gap:2rem
+}
+header .social i
+{
+    color:white;
+}
+//stylisation du main
+main .presentation
+{
+    display: flex;
+    margin: 30px 0;
+
+}
+main .presentation .presentation-text
+{
+display:flex;
+flex-direction:column;
+gap:2rem;
+width:40%;
+}
+main .presentation .presentation-text a
+{
+    background:#ED6D49;
+    padding:10px 15px;
+    text-decoration:none;
+    color:white;
+    align-self:flex-start;
+}
