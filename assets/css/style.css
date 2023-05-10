@@ -63,38 +63,32 @@ header .social a img
     width:26px;
     height:26px;
 }
-//stylisation du main
 main .presentation
 {
     display:flex;
     justify-content:space-between;
-    margin: 30px 0;
 
 }
-.anime
+.left
 {
-height:500px;
-width: 500px;
+    display:flex;
+    flex-direction:column;
+    gap:1.7rem;
+    width:40%;
+    margin:40px 0;
 }
-main .presentation .presentation-text
-{
-display:flex;
-flex-direction:column;
-gap:1.7rem;
-width:40%;
-margin:40px 0;
-}
-main .presentation .presentation-text h1
+
+.left h1
 {
     font-family:"Formula Condensed", sans-serif;
    font-size:54px;
    font-weight:normal;
 }
-main .presentation .presentation-text p
+.left p
 {
     font-size:20px;
 }
-main .presentation .presentation-text a
+.left a
 {
     background:#ED6D49;
     padding:10px 15px;
@@ -106,14 +100,19 @@ main .presentation .presentation-text a
     align-items:center;
     gap:0.3rem;
 }
-main .presentation .presentation-text a img
+.left a img
 {
 witdh:15px;
 height:15px;
 }
 
 
-
+.right{
+    /* height:500px;
+    width: 500px; */
+    background:blue;
+    width:55%;
+}
 
 
 

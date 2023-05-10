@@ -13,8 +13,9 @@
         css-doodle {
             --rule: (:doodle {
                 @grid: 5;
+                @place: center;
                 grid-gap: 1px;
-                @size: 2em 1em;
+                @size: 16em;
                 /* overflow: hidden; */
             }
              :doodle {
@@ -59,6 +60,25 @@
     </header>
     <main>
         <div class="presentation">
+            <div class="left">
+                <h1>
+                    100 Days of CSS and React/Next.js Challenge
+                </h1>
+                <p>
+                    I'm excited to be embarking on this journey to strengthen my skills in advanced CSS and React/Next.js development. Over the next 100 days, I'll be coding every day and tracking my progress.
+                </p>
+                <a href="https://www.fiverr.com/dorisdjaglo">
+                    <img src="./assets/icons/fiverr.svg" alt="fivericon"> Disponible sur fiverr
+                </a>
+            </div>
+            <div class="right">
+                <css-doodle use="var(--rule)" class="anime">
+
+                </css-doodle>
+            </div>
+        </div>
+        <!-- <div class="presentation">
+            
             <div class="presentation-text">
                 <h1>
                     100 Days of CSS and React/Next.js Challenge
@@ -75,7 +95,7 @@
 
                 </css-doodle>
             </div>
-        </div>
+        </div> -->
         <div class="days">
             <div class="day"></div>
             <div class="day"></div>
