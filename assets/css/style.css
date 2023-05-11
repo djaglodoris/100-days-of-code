@@ -1,146 +1,160 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Poppins:wght@300;400;600;700;800&display=swap');
 @font-face {
-    font-family: 'Formula Condensed';
-    src: url('../fonts/FormulaCondensed-Light.otf') ;
-    font-weight:400;
-    font-style:normal;
-  }
-  @font-face {
-    font-family: 'Formula Condensed';
-    src: url('../fonts/FormulaCondensed-Bold.otf') ;
-    font-weight:700;
-    font-style:normal;
-  }
-
-*
-{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+  font-family: 'Formula Condensed';
+  src: url('../fonts/FormulaCondensed-Light.otf');
+  font-weight: 400;
+  font-style: normal;
 }
-body
-{
-    padding:20px;
-}
-header
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:20px 0;
-    border-bottom: 1px solid #E7E7E7;   
-}
-header h1
-{
-    font-weight:800;
-    font-size:36px;
-    font-family:'Montserrat',sans-serif;
-}
-header .social
-{
-    background-color:#B885CD;
-    padding:5px 15px;
-    border-radius:50px;
-    display:flex;
-    justify-content:center;
-    align-items: center;
-
-    gap:1.5rem;
-}
-header .social a
-{
-    text-decoration:none;
-    display:flex;
-   justify-content:center;
-  align-items:center;
-}
-header .social a i
-{
-    color:white;
-}
-header .social a img
-{
-    width:26px;
-    height:26px;
-}
-main .presentation
-{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-
-}
-.left
-{
-    display:flex;
-    flex-direction:column;
-    gap:1.7rem;
-    width:40%;
-    margin:40px 0;
+@font-face {
+  font-family: 'Formula Condensed';
+  src: url('../fonts/FormulaCondensed-Bold.otf');
+  font-weight: 700;
+  font-style: normal;
 }
 
-.left h1
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #e7e7e7;
+}
+header h1 {
+  font-weight: 800;
+  font-size: 36px;
+}
+header .social {
+  background-color: #b885cd;
+  padding: 5px 15px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1.5rem;
+}
+header .social a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .social a i {
+  color: white;
+}
+header .social a img {
+  width: 26px;
+  height: 26px;
+}
+main .presentation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+  width: 40%;
+  margin: 40px 0;
+}
+
+.left h1 {
+  font-family: 'Formula Condensed', sans-serif;
+  font-size: 54px;
+  font-weight: normal;
+}
+.left p {
+  font-size: 20px;
+}
+.left a {
+  background: #ed6d49;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.left a img {
+  witdh: 15px;
+  height: 15px;
+}
+
+.right {
+  width: 55%;
+ 
+ 
+}
+.right img
 {
-    font-family:"Formula Condensed", sans-serif;
-   font-size:54px;
-   font-weight:normal;
-}
-.left p
-{
-    font-size:20px;
-}
-.left a
-{
-    background:#ED6D49;
-    padding:10px 15px;
-    text-decoration:none;
-    font-size:20px;
-    color:white;
-    align-self:flex-start;
-    display:flex;
-    align-items:center;
-    gap:0.3rem;
-}
-.left a img
-{
-witdh:15px;
-height:15px;
+    width:90%;
+    object-fit:cover;
+    height:350px;
 }
 
-
-.right{
-    /* height:500px;
-    width: 500px; */
-    background:yellow;
-    width:55%;
+.days {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 colonnes égales */
+  gap: 20px;
+  margin-top: 100px;
 }
-
-
-
-
+.day {
+  text-decoration: none;
+  background-color: #f1f1f1;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  boeder:1px solid black;
+}
+.day h1 {
+  font-size: 80px;
+}
+.day .intro {
+  font-size: 20px;
+}
+.day .description {
+  font-weight: 600;
+  font-size: 20px;
+}
+.active {
+  color: white;
+  background: #b885cd;
+  border: none;
+}
 
 @media (max-width: 768px) {
-    header h1 {
-      font-size: 18px;
-    }
-    header .social{
-        gap:1rem;
-    }
-   
-    /* MEDIAS QUERIES POUR LE MAIN */
-    main .presentation 
-    {
-        display:block;
-    }
-    main .presentation .left{
-        width:100%;
-    }
-    main .presentation .left h1
-    {
-        font-size:36px;
-        line-height:50px;
-    }
-    main .presentation .right{
-        width:100%;
-    }
+  header h1 {
+    font-size: 18px;
   }
+  header .social {
+    gap: 1rem;
+  }
+
+  /* MEDIAS QUERIES POUR LE MAIN */
+  main .presentation {
+    display: block;
+  }
+  main .presentation .left {
+    width: 100%;
+  }
+  main .presentation .left h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  main .presentation .right {
+    width: 100%;
+  }
+}

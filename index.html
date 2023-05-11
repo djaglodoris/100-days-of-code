@@ -7,17 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- <link rel="stylesheet" href="./assets/css/doodle.css"> -->
+
     <title>Welcome to my challenge</title>
-    <style>
-        css-doodle {
-            --rule: ( @grid: 35x1/ 100%;
-            grid-gap: 20px;
-            @size: 4em;
-            background: blue;
-            );
-        }
-    </style>
+
 
 </head>
 
@@ -51,18 +43,29 @@
                 </a>
             </div>
             <div class="right">
-                <css-doodle use="var(--rule)">
-
-                </css-doodle>
+                <img src="./assets/code-photo.jpg" alt="">
             </div>
         </div>
 
         <div class="days">
-            <div class="day"></div>
-            <div class="day"></div>
-            <div class="day"></div>
-            <div class="day"></div>
-            <div class="day"></div>
+
+
+            <a class="day active" href="https://djaglodoris.github.io/100-days-of-code/challenge/day-3/">
+                <p class="intro">Day</p>
+                <h1 class="number">3</h1>
+                <p class="description">Homepage integration</p>
+            </a>
+            <a class="day" href="https://djaglodoris.github.io/100-days-of-code/challenge/day-2/">
+                <p class="intro">Day</p>
+                <h1 class="number">2</h1>
+                <p class="description">Css-doodle</p>
+            </a>
+            <a class="day" href="https://djaglodoris.github.io/100-days-of-code/challenge/day-1/">
+                <p class="intro">Day</p>
+                <h1 class="number">1</h1>
+                <p class="description">Loader Spinner</p>
+            </a>
+
         </div>
     </main>
 
@@ -71,7 +74,7 @@
 
 
 
-    <script src="index.js"></script>
+
     <script src="https://unpkg.com/css-doodle@0.34.9/css-doodle.min.js"></script>
 </body>
 
