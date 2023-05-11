@@ -67,6 +67,7 @@ main .presentation
 {
     display:flex;
     justify-content:space-between;
+    align-items:center;
 
 }
 .left
@@ -110,7 +111,7 @@ height:15px;
 .right{
     /* height:500px;
     width: 500px; */
-    background:blue;
+    background:yellow;
     width:55%;
 }
 
@@ -131,12 +132,15 @@ height:15px;
     {
         display:block;
     }
-    main .presentation .presentation-text{
+    main .presentation .left{
         width:100%;
     }
-    main .presentation .presentation-text h1
+    main .presentation .left h1
     {
         font-size:36px;
         line-height:50px;
+    }
+    main .presentation .right{
+        width:100%;
     }
   }
