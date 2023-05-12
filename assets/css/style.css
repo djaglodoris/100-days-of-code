@@ -28,11 +28,11 @@ body {
   height:40px;
   border:2px dotted #000;
   box-sising:border-box;
-  tansition:0.1s;
+  
   transform:translate(-50%, -50%);
   border-radius:50%;
   pointer-events:none;
- 
+  transition:0.2s;
 }
 header {
   display: flex;
