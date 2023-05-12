@@ -19,6 +19,7 @@ Here's where I'll be keeping track of my progress throughout the 100 days of cod
 | 1 | Loading spinner | Make a beautiful loading spinner with hue-rotate | [Demo Link](https://djaglodoris.github.io/100-days-of-code/challenge/day-1/) |
 | 2 | Css-doodle learning|Start the project's home  page  integration  | [Demo Link](https://djaglodoris.github.io/100-days-of-code/) |
 | 3 |Home page intagration continue| Home page integration adding cards of days description | [Demo Link](https://djaglodoris.github.io/100-days-of-code/) |
+| 4 |Home page intagration continue| Animate homepage | [Demo Link](https://djaglodoris.github.io/100-days-of-code/) |
 
 
 

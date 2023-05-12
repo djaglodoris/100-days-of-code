@@ -14,6 +14,7 @@
 </head>
 
 <body>
+
     <header>
 
         <div>
@@ -29,7 +30,9 @@
 
         </div>
     </header>
+
     <main>
+
         <div class="presentation">
             <div class="left">
                 <h1>
@@ -48,9 +51,13 @@
         </div>
 
         <div class="days">
+            <a class="day active" href="https://djaglodoris.github.io/100-days-of-code/challenge/day-4/">
+                <p class="intro">Day</p>
+                <h1 class="number">4</h1>
+                <p class="description">Animate home page</p>
+            </a>
 
-
-            <a class="day active" href="https://djaglodoris.github.io/100-days-of-code/challenge/day-3/">
+            <a class="day " href="https://djaglodoris.github.io/100-days-of-code/challenge/day-3/">
                 <p class="intro">Day</p>
                 <h1 class="number">3</h1>
                 <p class="description">Homepage integration</p>
@@ -68,13 +75,23 @@
 
         </div>
     </main>
+    <div id="cursor">
+
+    </div>
 
 
 
 
-
-
-
+    <script>
+        var cursor = document.getElementById('cursor');
+        document.addEventListener('mousemove', function(e) {
+            // e.clientX et e.clientY renvoient les coordonnées horizontales (X) et verticales (Y) du pointeur de la souris par rapport au coin supérieur gauche de la fenêtre d'affichage du navigateur. 
+            var x = e.clientX;
+            var y = e.clientY;
+            cursor.style.left = x + "px";
+            cursor.style.top = y + "px";
+        })
+    </script>
     <script src="https://unpkg.com/css-doodle@0.34.9/css-doodle.min.js"></script>
 </body>
 

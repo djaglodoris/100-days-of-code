@@ -21,6 +21,19 @@ body {
   padding:0 5% ;
   font-family: 'Montserrat', sans-serif;
 }
+#cursor
+{
+  position:absolute;
+  width:40px;
+  height:40px;
+  border:2px dotted #000;
+  box-sising:border-box;
+  tansition:0.1s;
+  transform:translate(-50%, -50%);
+  border-radius:50%;
+  pointer-events:none;
+ 
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -51,6 +64,7 @@ header .social a {
 header .social a i {
   color: white;
 }
+
 header .social a img {
   width: 26px;
   height: 26px;
@@ -88,6 +102,8 @@ main .presentation {
   align-items: center;
   gap: 0.3rem;
 }
+
+
 .left a img {
   witdh: 15px;
   height: 15px;
@@ -114,7 +130,6 @@ main .presentation {
 .day {
   text-decoration: none;
   background-color: #f1f1f1 ;
- 
   color: black;
   padding: 20px 10px;
   display:flex;
@@ -124,6 +139,12 @@ main .presentation {
   font-size: 30px;
   border:1px solid black;
   border-radius:10px;
+  transform:scale(0.9);
+  transition:0.3s;
+}
+.day:hover
+{
+  transform:scale(1);
 }
 .day h1 {
   font-size: 80px;
