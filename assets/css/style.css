@@ -53,6 +53,7 @@ header {
 header h1 {
   font-weight: 800;
   font-size: 36px;
+  
 }
 header .social {
   background-color: var(--primary);
@@ -154,86 +155,6 @@ main .presentation {
   transition:0.3s;
   overflow:hidden;
 }
-.day span{
-
-  position:absolute;
-  background:var(--primary);
-}
-.day span:nth-child(1)
-{
-bottom:0;
-left:0;
-width:2px;
-height:100%;
-transform:scaleX(0);
-transform-origin:top;
-animation:transform 0.5s linear infinite;
-}
-.day:hover span:first-child
-{
-  transform:scale(1);
-  transform-origin:bottom;
-  transition-delay:0.5s;
-  
-}
-
-.day span:nth-child(2)
-{
-left:0;
-bottom:0;
-width:100%;
-height:2px;
-transform:scaleX(0);
-transform-origin:right;
-}
-.day:hover span:nth-child(2)
-{
-  transform:scaleX(1);
-  transform-origin:left ;
-  
-  transition-delay:0.5s
-    
-}
-
-
-.day span:nth-child(3)
-{
-bottom:0;
-right:0;
-width:2px;
-height:100%;
-transform:scaleY(0);
-transform-origin:top ;
-
-}
-.day:hover span:nth-child(3)
-{
-  transform:scaleY(1);
-  transform-origin:bottom;
-  transition-delay:0.5s;
- 
-}
-
-
-.day span:nth-child(4)
-{
-top:0;
-left:0;
-width:100%;
-height:2px;
-transform:scaleX(0);
-animation:transform 0.5s linear infinite;
-transition-delay:0.5s;
-transform-origin:right ;
-
-}
-.day:hover span:nth-child(4)
-{transform:scaleX(1);
-  transform-origin:left ;
-  transition-delay:0.5s;
-  transition:transform 0.5s;
-   
-} 
 
  .day:hover
 {

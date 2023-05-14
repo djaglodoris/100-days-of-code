@@ -1,0 +1,176 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:#0F056B;
+
+}
+
+.container
+{
+position:relative;
+top:50px;
+}
+.container h3
+{
+    text-align:center;
+    margin:40px 0;
+    color:white;
+    font-size:20px;
+}
+.cup
+{
+    position:relative;
+    width:200px;
+    height:220px;
+    background:linear-gradient(to right,#F9F9F9,#D9D9D9 );
+    border-bottom-left-radius:45%;
+    border-bottom-right-radius:45%;
+    cursor:pointer;
+    transition:All 2s linear;
+}
+
+.cup:hover{
+    transform:rotate(-45deg);
+   
+}
+.cup::before{
+    content:'';
+    position:absolute;
+    top:-5px;
+    left:-10px;
+    width:20px;
+    height:200px;
+    background:#8d6e63;
+    border-top-left-radius:25px;
+    z-index:45;
+    overflow:hidden;
+    display:none;
+    
+}
+.cup:hover::before{
+    transform:rotate(0deg);
+    
+    display:block;
+  
+}
+
+
+.top
+{
+    position:absolute;
+    top:-30px;
+    left:0;
+    width:100%;
+    height:60px;
+    border-radius:50%;
+    background:linear-gradient(to right,#F9F9F9,#D9D9D9 );
+}
+.circle{
+    position:absolute;
+    top:5px;
+    left:10px;
+    width: calc(100% - 20px);
+    height:50px;
+    background:linear-gradient(to left,#F9F9F9,#D9D9D9 );
+    border-radius:50%;
+    box-sizing:border-box;
+    overflow:hidden;
+}
+.tea
+{
+    position:absolute;
+    top:25px;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#8d6e63;
+    border-radius:50%;
+}
+.cup:hover .tea {
+   
+    transform:translateY(-30px);
+    
+  }
+.cup:hover .top  {
+   
+    background:#8d6e63;
+   
+  }
+.cup:hover .circle {
+
+    background:#8d6e63;
+    
+  }
+  
+
+.handle
+{
+    position:absolute;
+    right:-44px;
+    top:20px;
+    width:140px;
+    height:160px;
+    border:25px solid #dcdcdc;
+    border-left:25px solid transparent;
+    border-bottom:25px solid transparent;
+    border-radius:50%;
+    transform:rotate(42deg);
+}
+
+
+.vapour
+{
+    position:relative;
+    display:flex;
+    z-index:1;
+    padding:0 20px;
+}
+.vapour span
+{
+    position:relative;
+    bottom:50px;
+    display:block;
+    margin:0 2px 50px;
+    min-width:8px;
+    height:120px;
+    background:#FFF;
+    border-radius:50%;
+    animation:vapour 5s linear infinite;
+    opacity:0;
+    filter:blur(8px);
+    animation-delay:calc(var(--i) * -0.5s);
+}
+@keyframes vapour
+{
+    0%
+    {
+        transform:translateY(0) scale(1);
+        opacity:0;
+    }
+    15%
+    {
+        opacity:1;
+    }
+    50%
+    {
+        transform:translateY(-150px) scale(1.2);
+    }
+    95%
+    {
+        opacity:0;
+    }
+    100%
+    {
+        transform:translateY(-300px) scale(1.3);
+    }
+}
