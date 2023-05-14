@@ -29,12 +29,32 @@
     border-bottom-left-radius: 45%;
     border-bottom-right-radius: 45%;
     cursor: pointer;
+    
   }
+  .cup:hover{
+      animation: shake 1s ease-in-out;
+      transform: rotate(-10deg);
+      transition-delay:1.2s;
+   
+  }
+  @keyframes shake {
+      0% {
+        transform: translateX(0);
+      }
+      25% {
+        transform: translateX(-5px) rotate(-5deg);
+      }
+      50% {
+        transform: translateX(5px) rotate(5deg);
+      }
+      75% {
+        transform: translateX(-5px) rotate(-5deg);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
   
-  .cup:hover {
-    transform: rotate(-30deg);
-    transition: 0.3s;
-  }
   .cup::before {
     content: '';
     position: absolute;
@@ -47,6 +67,7 @@
     overflow: hidden;
     display: none;
     animation: overflowing 2s ease-in-out forwards;
+    animation-delay:1.2s;
   }
   @keyframes overflowing {
     0% {
@@ -96,10 +117,11 @@
     height: 100%;
     background: #8d6e63;
     border-radius: 50%;
-    animation: animate 1s ease infinite;
+    
   }
   .cup:hover .tea {
-    animation: none;
+      animation: animate 2s ease ;
+    
   }
   @keyframes animate {
     0%,
@@ -148,7 +170,10 @@
     border-radius: 50%;
     transform: rotate(42deg);
   }
-  
+  .cup:hover .vapour{
+      transform:rotate(10deg);
+      transition-delay:0.1s;
+  }
   .vapour {
     position: relative;
     display: flex;
@@ -156,9 +181,7 @@
     padding: 0 20px;
   }
   
-  .vapour:hover{
-      transform:rotate(30deg);
-  }
+  
   .vapour span {
     position: relative;
     bottom: 50px;
