@@ -11,8 +11,9 @@
   .greating
   {
     position:absolute;
+    z-index:35;
     top:50%;
-    left:40%;
+    left:30%;
     color:white;
     font-size:18px;
   }
@@ -73,4 +74,13 @@ animation:anim 5s linear infinite;
     transform:scale(1);
    
     transition:0s;
+}
+
+@media (max-width: 768px)
+{
+    .greating
+    {
+        left:5px;
+        right:5px
+    }
 }
