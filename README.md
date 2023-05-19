@@ -23,6 +23,8 @@ Here's where I'll be keeping track of my progress throughout the 100 days of cod
 | 5 |spilled cup of coffee| Tea overflowing cup on hover animation| [Demo Link](https://djaglodoris.github.io/100-days-of-code/challenge/day-5) |
 | 6 |Makifaa| Makifaa privacy and confidentiality page| [Demo Link](https://makifaa.com/cgu/utilisation) |
 | 7 |Div following mouse| I make a beautiful mousemove animation| [Demo Link](https://djaglodoris.github.io/100-days-of-code/challenge/day-7/) |
+| 7 |Makifaa terms of use| [Demo Link](https://makifaa.com/cgu/utilisation) |
+| 7 |Makifaa subpages| [Demo Link](https://makifaa.com/about) |
 
 
 
