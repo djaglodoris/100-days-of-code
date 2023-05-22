@@ -23,11 +23,11 @@ Here's where I'll be keeping track of my progress throughout the 100 days of cod
 | 5 |spilled cup of coffee| Tea overflowing cup on hover animation| [Demo Link](https://djaglodoris.github.io/100-days-of-code/challenge/day-5) |
 | 6 |Makifaa| Makifaa privacy and confidentiality page| [Demo Link](https://makifaa.com/cgu/utilisation) |
 | 7 |Div following mouse| I make a beautiful mousemove animation| [Demo Link](https://djaglodoris.github.io/100-days-of-code/challenge/day-7/) |
-| 8 |Makifaa terms of use| [Demo Link](https://makifaa.com/cgu/utilisation) |
-| 9 |Makifaa subpages| [Demo Link](https://makifaa.com/about) |
-| 10 |Makifaa subpages| [Demo Link](https://makifaa.com/creators) |
-| 11 |Makifaa subpages| [Demo Link](https://makifaa.com/business) |
-| 12 |Makifaa subpages| [Demo Link](https://makifaa.com/contact) |
+| 8 |Makifaa terms of use|Working on Mahifaa subpages|  [Demo Link](https://makifaa.com/cgu/utilisation) |
+| 9 |Makifaa subpages| Working on Mahifaa subpages| [Demo Link](https://makifaa.com/about) |
+| 10 |Makifaa subpages| Working on Mahifaa subpages| [Demo Link](https://makifaa.com/creators) |
+| 11 |Makifaa subpages| Working on Mahifaa subpages| [Demo Link](https://makifaa.com/business) |
+| 12 |Makifaa subpages| Working on Mahifaa subpages| [Demo Link](https://makifaa.com/contact) |
 
 
 
