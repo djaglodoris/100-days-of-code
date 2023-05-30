@@ -28,6 +28,7 @@ Here's where I'll be keeping track of my progress throughout the 100 days of cod
 | 10 |Makifaa subpages| Working on Mahifaa subpages| [Demo Link](https://makifaa.com/creators) |
 | 11 |Makifaa subpages| Working on Mahifaa subpages| [Demo Link](https://makifaa.com/business) |
 | 12 |Makifaa subpages| Working on Mahifaa subpages| [Demo Link](https://makifaa.com/contact) |
+| 13 |Man riding animation| I animate a man riding a bike | [Demo Link](https://djaglodoris.github.io/100-days-of-code/challenge/day-13) |
 
 
 

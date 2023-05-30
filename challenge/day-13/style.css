@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.street {
+  position: relative;
+  background: url(../../assets/rue.jpg);
+  overflow: hidden;
+  height: 100vh;
+  background-size: cover;
+  background-position: 0 0;
+  
+}
+
+.street .bike {
+  position: absolute;
+  transform: scaleX(-1);
+  bottom: 150px;
+  left: 0;
+}
+@media screen and (max-width: 600px) {
+ .bike{
+  height:150px;
+  width:150px;
+  bottom: 15%;
+  left: 0;
+ }
+}
