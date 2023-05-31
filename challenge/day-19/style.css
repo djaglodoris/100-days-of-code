@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    border-box:box-sizing;
+}
+body{
+    cursor:none;
+}
+a{
+    text-decoration:none;
+}
+ul{
+    list-style-type:none;
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:0 50px;
+}
+.header-row{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px 0;
+}
+nav ul{
+    display:flex;
+    align-items:center;
+}
+nav li + li{
+    margin-left:15px;
+}
+nav li a{
+    font-size:18px;
+    font-weight: bold;
+    padding:10px 40px;
+    border:2px solid #3FF3A4;
+    color:#3FF3A4;
+    border-radius:2em;
+    display:block;
+}
+section{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    background:black;
+    /* background:url('../../assets/doristof.jpg');
+    background-position:top;
+    background-size:cover; */
+
+}
+.hero-text-content h1{
+    font-size:8vw;
+    line-height:1;
+    font-weight:bold;
+    background-color:#F4D03F;
+    background-image:linear-gradient(132deg,#3FF4AF 0%, #D8E6A4 100%);
+    -webkit-background-clip:text;
+    color:transparent;
+}
+.hero-text-content h2{
+    font-size:5vw;
+    color:#fff;
+    display:inline-flex;
+}
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    
+    color:#16A085;
+}
+.footer-wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 50px;
+}
+.footer-nav{
+    display:flex;
+    gap:15px;
+    align-items:center;
+}
+.footer-nav li{
+    color:#16A085;
+    font-size:18px;
+}
+.cursor{
+    position:fixed;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border:2px solid #16A085;
+    margin-top:-20px;
+    margin-left:-20px;
+    transition:transform .3s ease;
+    pointer-events:none;
+    transform-origin:center center;
+    z-index:10;
+}
+.grow{
+    transform:scale(10);
+    background:#fff;
+    mix-blend-mode:difference;
+    border:none;
+}
+.grow-small{
+    transform:scale(2.5);
+    background:#fff;
+    mix-blend-mode:difference;
+    border:none
+}
