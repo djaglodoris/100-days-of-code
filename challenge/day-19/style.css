@@ -55,7 +55,7 @@ section{
 
 }
 .hero-text-content h1{
-    font-size:8vw;
+    font-size:6vw;
     line-height:1;
     font-weight:bold;
     background-color:#F4D03F;
@@ -64,7 +64,7 @@ section{
     color:transparent;
 }
 .hero-text-content h2{
-    font-size:5vw;
+    font-size:4vw;
     color:#fff;
     display:inline-flex;
 }
@@ -80,7 +80,7 @@ footer{
     display:flex;
     align-items:center;
     justify-content:space-between;
-    padding:0 50px;
+    padding: 50px;
 }
 .footer-nav{
     display:flex;
