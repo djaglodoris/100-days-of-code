@@ -68,11 +68,13 @@ footer{
     width:100%;
     
 }
-.footer-wrapper{
+.footer-wrapper ul{
     display:flex;
     align-items:center;
-    justify-content:space-between;
-    padding: 50px;
+    justify-content:center;
+    gap:2rem;
+    padding: 20px;
+    font-size:12px;
 }
 .footer-nav{
     display:flex;
@@ -114,11 +116,6 @@ footer{
     header{
         padding:0 10px;
     }
-    .footer-wrapper{
-        padding: 10px;
-        flex-direction:column;
-        gap:2rem;
-        font-size:14px;
-    }
+    
   }
   
