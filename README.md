@@ -32,6 +32,7 @@ Here's where I'll be keeping track of my progress throughout the 100 days of cod
 | 14-17 |Makifaa medias registering|Register medias on makifaa| [Demo Link](https://makifaa.com) |
 | 18 |learn about Gsap|Getting start with Gsap|  |
 | 19 |Cursor animation| Animation on cursor using GSAP | [Demo Link](https://djaglodoris.github.io/100-days-of-code/challenge/day-19/) |
+| 20 |Scroll animation| Scroll animation  using GSAP | [Demo Link](https://djaglodoris.github.io/100-days-of-code/challenge/day-20/) |
 
 
 
