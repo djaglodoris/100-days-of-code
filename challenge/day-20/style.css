@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.top-section {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size:24px;
+  color: #222;
+}
+.img-container {
+  width: 100%;
+  height: 80vh;
+  background: url('../../assets/banana.jpg') center center no-repeat;
+  background-size: cover;
+}
+.img-container .my-text {
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding:20px 0;
+  margin:0 20%;
+  border-radius:6px;
+  position: relative;
+  top: 50%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.bottom-section {
+  margin: 40px 5px;
+  text-align: center;
+}
+.bottom-section h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 748px) {
+    .img-container .my-text {
+        margin:0 10px;
+    }
+    
+  }
